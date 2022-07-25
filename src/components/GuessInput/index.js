@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import {getFindIndex} from '../../utils';
 import './guessInput.css';
 
 export default function GuessInput({onSubmit, userGuesses}) {
@@ -25,7 +26,3 @@ export default function GuessInput({onSubmit, userGuesses}) {
         </div>
     )
 } 
-
-const getFindIndex = (guesses) => {
-    return guesses.findIndex(val => val === null);
-}

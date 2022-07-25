@@ -2,9 +2,12 @@
     width: 300px;
     margin: 0 auto;
     text-align: center;
+}
+
+.game-finised-container  p.success{
     color: green;
 }
 
-.game-finised-container  p{
-    display: block;
+.game-finised-container  p.failure{
+    color: red;
 }
